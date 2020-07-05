@@ -1,0 +1,198 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.page,.page1,.page2{
+background-image: url(./components/img/jjj.jpg);
+background-size: 100%;
+background-repeat: repeat-x;
+width: 100%;
+height: 240px;
+margin: 0 auto;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+}
+.page1{
+    height: 550px;
+    }
+@-webkit-keyframes my {
+    0% { color: #000; } 
+    50% { color: #eee;  } 
+    100% { color: rgb(180, 175, 175); } 
+}
+@-moz-keyframes my { 
+    0% { color: #eee;  } 
+    50% { color: #000;  }
+    100% { color: rgb(180, 175, 175); } 
+    }
+@-o-keyframes my { 
+    0% { color: #000; } 
+    50% { color: #eee; } 
+    100% { color:rgb(180, 175, 175);  } 
+    }
+@keyframes my { 
+    0% { color: #eee;  } 
+    50% { color: #000;  }
+    100% { color: rgb(180, 175, 175); } 
+    } 
+.nhay{
+    display:flex;
+    justify-content:center;
+    font-size:18px;
+    font-weight:bold;
+-webkit-animation: my 700ms infinite;
+-moz-animation: my 700ms infinite; 
+-o-animation: my 700ms infinite; 
+animation: my 700ms infinite;
+}
+.grid-container{
+display: grid;
+grid-template-columns: repeat(2, 6fr);
+grid-column-gap: 10px;
+padding: 10px;
+margin-top: -40px;
+}
+
+.grid-container1{
+  display: grid;
+  grid-template-columns: repeat(1, 6fr);
+  grid-column-gap: 10px;
+  padding: 10px;
+  }
+
+input[type=text] {
+  width: 400px;
+  height: 40px;
+  border-radius: 10px 0px 0px 10px;
+
+}
+input[type=button]{
+  border-radius: 0px 10px 10px 0px;
+  cursor: pointer;
+  margin-right: 33%;
+}
+.content{
+  background-color:#eee;
+}
+.table{
+  width: 100%;
+}
+.loginbox , .loginbox1{
+  width: 320px;
+  height: 420px;
+  background: #eee;
+  color: #000000;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+.loginbox1{
+  width: 320px;
+  height: 507px;
+  margin-top: 10px;
+}
+h1{
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.loginbox p, .loginbox1 p{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.loginbox input, .loginbox1 input{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="email"], input[type="sđt"] , input[type="password"], .loginbox1 input[type="text"], input[type="email"], input[type="sđt"] , input[type="password"]
+{
+  border: none;
+  border-bottom: 1px solid rgb(61, 60, 60);
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: rgb(58, 50, 50);
+  font-size: 16px;
+}
+.loginbox input[type="submit"],.loginbox1 input[type="submit"]
+{
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #fb2525;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+.loginbox input[type="submit"]:hover
+{
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+}
+
+.loginbox1 input[type="submit"]:hover
+{
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+}
+
+.loginbox a, .loginbox1 a{
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgrey;
+}
+
+.loginbox a:hover
+{
+  color: #ffc107;
+}
+
+.loginbox1 a:hover
+{
+  color: #ffc107;
+}
+.container{
+  padding: 20px;
+  margin-left: 1%;
+}
+.modal-body{
+  color: #000;
+}
+.modal-header{
+  color: #000;
+  margin: 0 auto;
+}
+.contentxoa{
+  background-color:#eee;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+}
+a{
+  color: #000;
+}
+.gzuMkC {
+  width: 100%;
+  margin-top: 50px;
+  background: rgba(125, 200, 202, 0.11);
+}
